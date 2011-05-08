@@ -1,4 +1,4 @@
-1304845984
+1304852763
 AddAdminToUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508082407_add_admin_to_users.rb	class AddAdminToUsers 
 AddEmailUniquenessIndex	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505013321_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505023109_add_password_to_users.rb	class AddPasswordToUsers 
@@ -6,7 +6,10 @@ AddSaltToUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505045
 Application	/Users/chris/dev/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/Users/chris/dev/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/chris/dev/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+CreateMicroposts	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508092458_create_microposts.rb	class CreateMicroposts 
 CreateUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110504232921_create_users.rb	class CreateUsers 
+Micropost	/Users/chris/dev/rails_projects/sample_app/app/models/micropost.rb	class Micropost 
+MicropostsController	/Users/chris/dev/rails_projects/sample_app/app/controllers/microposts_controller.rb	class MicropostsController 
 PagesController	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/Users/chris/dev/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/Users/chris/dev/rails_projects/sample_app/config/application.rb	module SampleApp
@@ -26,9 +29,10 @@ admin_user	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_cont
 all	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function all(iterator, context)
 any	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function any(iterator, context)
 argumentNames	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function argumentNames()
-authenticate	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	    def authenticate
+authenticate	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def authenticate
 authenticate	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def self.authenticate(email, submitted_password)
 authenticate_with_salt	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def self.authenticate_with_salt(id, cookie_salt)
+authorized_user	/Users/chris/dev/rails_projects/sample_app/app/controllers/microposts_controller.rb	    def authorized_user
 bind	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function bind(context)
 bindAsEventListener	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function bindAsEventListener(context)
 blank	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function blank()
@@ -48,6 +52,7 @@ concat	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.j
 contact	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
 correct_user	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	    def correct_user
+create	/Users/chris/dev/rails_projects/sample_app/app/controllers/microposts_controller.rb	  def create
 create	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def create
 create	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
 create	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function create()
@@ -63,6 +68,7 @@ defer	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js
 define	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function define(D)
 delay	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function delay(timeout)
 deny_access	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def deny_access
+destroy	/Users/chris/dev/rails_projects/sample_app/app/controllers/microposts_controller.rb	  def destroy
 destroy	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def destroy
 destroy	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def destroy
 detect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function detect(iterator, context)
@@ -74,6 +80,7 @@ down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505013321_add_em
 down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505023109_add_password_to_users.rb	  def self.down
 down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505045344_add_salt_to_users.rb	  def self.down
 down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508082407_add_admin_to_users.rb	  def self.down
+down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508092458_create_microposts.rb	  def self.down
 each	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function each(iterator)
 each	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -92,6 +99,7 @@ extendElementWith	/Users/chris/dev/rails_projects/sample_app/public/javascripts/
 extendElements	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function extendElements(elements)
 extractScripts	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function extractScripts()
 fallback	/Users/chris/dev/rails_projects/sample_app/public/javascripts/controls.js	function fallback(name, expr)
+feed	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def feed
 find	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function find(elements, expression, index)
 findAll	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function findAll(iterator, context)
 findDOMClass	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function findDOMClass(tagName)
@@ -173,7 +181,7 @@ on	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	fu
 parseColor	/Users/chris/dev/rails_projects/sample_app/public/javascripts/effects.js	function parseColor(color)
 parseJSON	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function parseJSON()
 partition	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function partition(iterator, context)
-password	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    attr_accessor :password
+password	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	  attr_accessor :password
 pluck	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function pluck(property)
 pointer	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function pointer(event)
 pointerX	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function pointerX(event)
@@ -243,6 +251,7 @@ up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505013321_add_emai
 up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505023109_add_password_to_users.rb	  def self.up
 up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505045344_add_salt_to_users.rb	  def self.up
 up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508082407_add_admin_to_users.rb	  def self.up
+up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508092458_create_microposts.rb	  def self.up
 update	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def update
 update	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function update(array, args)
 update	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function update(element, content)
