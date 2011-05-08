@@ -1,0 +1,256 @@
+1304845984
+AddAdminToUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508082407_add_admin_to_users.rb	class AddAdminToUsers 
+AddEmailUniquenessIndex	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505013321_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
+AddPasswordToUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505023109_add_password_to_users.rb	class AddPasswordToUsers 
+AddSaltToUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505045344_add_salt_to_users.rb	class AddSaltToUsers 
+Application	/Users/chris/dev/rails_projects/sample_app/config/application.rb	  class Application 
+ApplicationController	/Users/chris/dev/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/Users/chris/dev/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+CreateUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110504232921_create_users.rb	class CreateUsers 
+PagesController	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	/Users/chris/dev/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
+SampleApp	/Users/chris/dev/rails_projects/sample_app/config/application.rb	module SampleApp
+SessionsController	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
+Str	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
+Type	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function Type(o)
+User	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	class User 
+UsersController	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	/Users/chris/dev/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
+about	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
+abs	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function abs()
+absolutize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function absolutize(element)
+addMethods	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function addMethods(source)
+addText	/Users/chris/dev/rails_projects/sample_app/public/javascripts/controls.js	function addText(mode, condition)
+admin_user	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	    def admin_user
+all	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function all(iterator, context)
+any	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function any(iterator, context)
+argumentNames	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function argumentNames()
+authenticate	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	    def authenticate
+authenticate	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def self.authenticate(email, submitted_password)
+authenticate_with_salt	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def self.authenticate_with_salt(id, cookie_salt)
+bind	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function bind(context)
+bindAsEventListener	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function bindAsEventListener(context)
+blank	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function blank()
+camelize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function camelize()
+capitalize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function capitalize()
+ceil	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function ceil()
+checkDeficiency	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function checkDeficiency(tagName)
+checkReadyState	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function checkReadyState()
+clear	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function clear()
+clear_return_to	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	    def clear_return_to
+clone	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function clone()
+clone	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function clone()
+clone	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function clone(object)
+collect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function collect(iterator, context)
+compact	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function compact()
+concat	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function concat()
+contact	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+copy	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+correct_user	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	    def correct_user
+create	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def create
+create	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
+create	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function create()
+cssNameFor	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
+cumulativeOffset	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function cumulativeOffset(element)
+cumulativeScrollOffset	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function cumulativeScrollOffset(element)
+current_user	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user
+current_user=	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
+current_user?	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
+curry	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function curry()
+dasherize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function dasherize()
+defer	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function defer()
+define	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function define(D)
+delay	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function delay(timeout)
+deny_access	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def deny_access
+destroy	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def destroy
+destroy	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def destroy
+detect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function detect(iterator, context)
+dirCheck	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
+dirNodeCheck	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
+dispatch	/Users/chris/dev/rails_projects/sample_app/public/javascripts/effects.js	function dispatch(effect, eventName)
+down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110504232921_create_users.rb	  def self.down
+down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505013321_add_email_uniqueness_index.rb	  def self.down
+down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505023109_add_password_to_users.rb	  def self.down
+down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505045344_add_salt_to_users.rb	  def self.down
+down	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508082407_add_admin_to_users.rb	  def self.down
+each	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function each(iterator)
+each	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function each(iterator, context)
+eachSlice	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
+edit	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def edit
+element	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function element(event)
+empty	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function empty()
+encrypt	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def encrypt(string)
+encrypt_password	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def encrypt_password
+endsWith	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function endsWith(pattern)
+escapeHTML	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function escapeHTML()
+evalJSON	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function evalJSON(sanitize)
+evalScripts	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function evalScripts()
+extend	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function extend(destination, source)
+extend	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function extend(tagName)
+extendElementWith	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function extendElementWith(element, methods)
+extendElements	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function extendElements(elements)
+extractScripts	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function extractScripts()
+fallback	/Users/chris/dev/rails_projects/sample_app/public/javascripts/controls.js	function fallback(name, expr)
+find	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function find(elements, expression, index)
+findAll	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function findAll(iterator, context)
+findDOMClass	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function findDOMClass(tagName)
+findElement	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function findElement(event, expression)
+fire	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function fire(element, eventName, memo, bubble)
+fireContentLoadedEvent	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function fireContentLoadedEvent()
+first	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function first()
+flatten	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function flatten()
+floor	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function floor()
+get	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function get(key)
+getDimensions	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function getDimensions(element)
+getLayout	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function getLayout(element, preCompute)
+getOffsetParent	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function getOffsetParent(element)
+getPixelValue	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function getPixelValue(value, property)
+getRootElement	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function getRootElement()
+gravatar_for	/Users/chris/dev/rails_projects/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { :size => 50 })
+grep	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function grep(filter, iterator, context)
+gsub	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
+handleMethod	/Users/chris/dev/rails_projects/sample_app/public/javascripts/rails.js	function handleMethod(element)
+handleRemote	/Users/chris/dev/rails_projects/sample_app/public/javascripts/rails.js	function handleRemote(element)
+has_password?	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def has_password?(submitted_password)
+help	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
+home	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
+inGroupsOf	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
+include	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function include(object)
+include	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function include(pattern)
+include	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function include(value)
+index	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def index
+index	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function index(value)
+indexOf	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function indexOf(item, i)
+initialize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function initialize(object)
+initialize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function initialize(start, end, exclusive)
+inject	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function inject(memo, iterator, context)
+inspect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function inspect()
+inspect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function inspect()
+inspect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function inspect()
+inspect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function inspect(object)
+inspect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function inspect(useDoubleQuotes)
+interpolate	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function interpolate(object, pattern)
+intersect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function intersect(array)
+invoke	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function invoke(method)
+isArray	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isArray(object)
+isBody	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isBody(element)
+isDetached	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isDetached(element)
+isDisplayed	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isDisplayed(element)
+isElement	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isElement(object)
+isEventSupported	/Users/chris/dev/rails_projects/sample_app/public/javascripts/rails.js	function isEventSupported(eventName)
+isForm	/Users/chris/dev/rails_projects/sample_app/public/javascripts/rails.js	function isForm(element)
+isFunction	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isFunction(object)
+isHash	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isHash(object)
+isInput	/Users/chris/dev/rails_projects/sample_app/public/javascripts/rails.js	function isInput(element)
+isJSON	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isJSON()
+isLeftClick	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isLeftClick(event)   { return _isButton(event, 0)
+isMiddleClick	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isMiddleClick(event) { return _isButton(event, 1)
+isNumber	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isNumber(object)
+isRightClick	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isRightClick(event)  { return _isButton(event, 2)
+isString	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isString(object)
+isUndefined	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function isUndefined(object)
+iter	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function iter(name)
+keys	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function keys()
+keys	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function keys(object)
+klass	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function klass()
+last	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function last()
+lastIndexOf	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function lastIndexOf(item, i)
+logo	/Users/chris/dev/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
+make_salt	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def make_salt
+match	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function match()
+match	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function match(element, selector)
+max	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function max(iterator, context)
+measure	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function measure(element, property)
+merge	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function merge(array, args)
+merge	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function merge(object)
+methodize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function methodize()
+min	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function min(iterator, context)
+new	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	def new
+new	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+observe	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function observe(element, eventName, handler)
+on	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
+parseColor	/Users/chris/dev/rails_projects/sample_app/public/javascripts/effects.js	function parseColor(color)
+parseJSON	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function parseJSON()
+partition	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function partition(iterator, context)
+password	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    attr_accessor :password
+pluck	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function pluck(property)
+pointer	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function pointer(event)
+pointerX	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function pointerX(event)
+pointerY	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function pointerY(event)
+pollDoScroll	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function pollDoScroll()
+positionedOffset	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function positionedOffset(element)
+prepareReplacement	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function prepareReplacement(replacement)
+purgeElement	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function purgeElement(element)
+redirect_back_or	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
+reject	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function reject(iterator, context)
+relativize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function relativize(element)
+remember_token	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	    def remember_token
+reverse	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function reverse(inline)
+round	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function round()
+scan	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function scan(pattern, iterator)
+secure_hash	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def secure_hash(string)
+select	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function select()
+select	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function select(selector, scope)
+set	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function set(key, value)
+show	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
+sign_in	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+sign_out	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_out
+signed_in?	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+size	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function size()
+size	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function size()
+sortBy	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function sortBy(iterator, context)
+startsWith	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function startsWith(pattern)
+stop	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function stop(event)
+stopObserving	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function stopObserving(element, eventName, handler)
+store_location	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	    def store_location
+stringify	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function stringify(object)
+strip	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function strip()
+stripAlpha	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function stripAlpha(filter)
+stripScripts	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function stripScripts()
+stripTags	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function stripTags()
+sub	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function sub(pattern, replacement, count)
+subclass	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function subclass()
+succ	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function succ()
+succ	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function succ()
+test_sign_in	/Users/chris/dev/rails_projects/sample_app/spec/spec_helper.rb	    def test_sign_in(user)
+times	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function times(count)
+times	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function times(iterator, context)
+title	/Users/chris/dev/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
+toArray	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toArray()
+toArray	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toArray()
+toCSSPixels	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toCSSPixels(number)
+toColorPart	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toColorPart()
+toDecimal	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toDecimal(pctString)
+toHTML	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toHTML(object)
+toISOString	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toISOString()
+toJSON	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toJSON()
+toJSON	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toJSON(value)
+toObject	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toObject()
+toPaddedString	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toPaddedString(length, radix)
+toQueryPair	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toQueryPair(key, value)
+toQueryParams	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toQueryParams(separator)
+toQueryString	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toQueryString()
+toQueryString	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function toQueryString(object)
+truncate	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function truncate(length, truncation)
+underscore	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function underscore()
+unescapeHTML	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function unescapeHTML()
+unfilterJSON	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function unfilterJSON(filter)
+uniq	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function uniq(sorted)
+unset	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function unset(key)
+up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110504232921_create_users.rb	  def self.up
+up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505013321_add_email_uniqueness_index.rb	  def self.up
+up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505023109_add_password_to_users.rb	  def self.up
+up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505045344_add_salt_to_users.rb	  def self.up
+up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110508082407_add_admin_to_users.rb	  def self.up
+update	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def update
+update	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function update(array, args)
+update	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function update(element, content)
+update	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function update(object)
+user_from_remember_token	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	    def user_from_remember_token
+values	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function values()
+values	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function values(object)
+viewportOffset	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function viewportOffset(forElement)
+without	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function without()
+wrap	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function wrap(wrapper)
+zip	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function zip()
