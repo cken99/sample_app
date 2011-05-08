@@ -1,4 +1,4 @@
-1304822047
+1304835436
 AddEmailUniquenessIndex	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505013321_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505023109_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505045344_add_salt_to_users.rb	class AddSaltToUsers 
@@ -9,6 +9,8 @@ CreateUsers	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110504232921
 PagesController	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/Users/chris/dev/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/Users/chris/dev/rails_projects/sample_app/config/application.rb	module SampleApp
+SessionsController	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
 Str	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function Type(o)
 User	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	class User 
@@ -23,6 +25,7 @@ all	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	f
 any	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function any(iterator, context)
 argumentNames	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function argumentNames()
 authenticate	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def self.authenticate(email, submitted_password)
+authenticate_with_salt	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def self.authenticate_with_salt(id, cookie_salt)
 bind	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function bind(context)
 bindAsEventListener	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function bindAsEventListener(context)
 blank	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function blank()
@@ -40,16 +43,20 @@ compact	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.
 concat	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function concat()
 contact	/Users/chris/dev/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def create
 create	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
 create	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function create()
 cssNameFor	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function cumulativeOffset(element)
 cumulativeScrollOffset	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function cumulativeScrollOffset(element)
+current_user	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user
+current_user=	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
 curry	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function curry()
 dasherize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function dasherize()
 defer	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function defer()
 define	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function define(D)
 delay	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function delay(timeout)
+destroy	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def destroy
 detect	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function detect(iterator, context)
 dirCheck	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
@@ -138,6 +145,7 @@ keys	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	
 klass	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function klass()
 last	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function last()
 lastIndexOf	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function lastIndexOf(item, i)
+logo	/Users/chris/dev/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
 make_salt	/Users/chris/dev/rails_projects/sample_app/app/models/user.rb	    def make_salt
 match	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function match()
 match	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function match(element, selector)
@@ -147,6 +155,7 @@ merge	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js
 merge	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function merge(object)
 methodize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function methodize()
 min	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function min(iterator, context)
+new	/Users/chris/dev/rails_projects/sample_app/app/controllers/sessions_controller.rb	def new
 new	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 observe	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
@@ -164,6 +173,7 @@ prepareReplacement	/Users/chris/dev/rails_projects/sample_app/public/javascripts
 purgeElement	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function purgeElement(element)
 reject	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function reject(iterator, context)
 relativize	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function relativize(element)
+remember_token	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	    def remember_token
 reverse	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function reverse(inline)
 round	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function round()
 scan	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function scan(pattern, iterator)
@@ -172,6 +182,9 @@ select	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.j
 select	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function select(selector, scope)
 set	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function set(key, value)
 show	/Users/chris/dev/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
+sign_in	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+sign_out	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_out
+signed_in?	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
 size	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function size()
 size	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function size()
 sortBy	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function sortBy(iterator, context)
@@ -187,6 +200,7 @@ sub	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	f
 subclass	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function subclass()
 succ	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function succ()
 succ	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function succ()
+test_sign_in	/Users/chris/dev/rails_projects/sample_app/spec/spec_helper.rb	    def test_sign_in(user)
 times	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function times(count)
 times	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function times(iterator, context)
 title	/Users/chris/dev/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
@@ -218,6 +232,7 @@ up	/Users/chris/dev/rails_projects/sample_app/db/migrate/20110505045344_add_salt
 update	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function update(array, args)
 update	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function update(element, content)
 update	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function update(object)
+user_from_remember_token	/Users/chris/dev/rails_projects/sample_app/app/helpers/sessions_helper.rb	    def user_from_remember_token
 values	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function values()
 values	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function values(object)
 viewportOffset	/Users/chris/dev/rails_projects/sample_app/public/javascripts/prototype.js	function viewportOffset(forElement)
